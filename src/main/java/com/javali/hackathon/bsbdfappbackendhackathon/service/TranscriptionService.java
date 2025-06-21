@@ -36,19 +36,14 @@ public class TranscriptionService {
         log.info("Tentando carregar o modelo Vosk a partir do caminho do classpath: {}", modelPathValue);
 
         try {
-            // Usa o ResourceLoader para obter o recurso a partir do caminho definido no application.properties
             Resource modelResource = resourceLoader.getResource(modelPathValue);
 
-            // A biblioteca Vosk precisa de um caminho absoluto no sistema de arquivos.
-            // O método getFile() resolve isso.
             File modelDir = modelResource.getFile();
             this.model = new Model(modelDir.getAbsolutePath());
             log.info("Modelo Vosk carregado com sucesso do caminho: {}", modelDir.getAbsolutePath());
 
         } catch (IOException e) {
             log.error("Falha ao carregar o modelo Vosk. Verifique se o caminho '{}' está correto e acessível no classpath.", modelPathValue, e);
-            // Nota: Se rodando de um JAR, modelResource.getFile() pode falhar.
-            // Uma solução mais robusta para produção seria extrair o modelo para um diretório temporário.
             throw new RuntimeException("Não foi possível carregar o modelo Vosk.", e);
         }
     }
