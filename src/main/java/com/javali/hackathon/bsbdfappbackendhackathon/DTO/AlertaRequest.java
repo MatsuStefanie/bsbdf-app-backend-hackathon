@@ -7,5 +7,6 @@ public record AlertaRequest(
         String numero,
         String nomeAlerta,
         String destinatario,
+        String linkMap,
         String coordenadas) {
 }

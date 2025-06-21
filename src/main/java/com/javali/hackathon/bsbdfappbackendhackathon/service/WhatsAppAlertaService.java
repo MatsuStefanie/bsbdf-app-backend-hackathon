@@ -48,9 +48,9 @@ public class WhatsAppAlertaService {
 
         var header = new Component("header", List.of(new Parameter("text", dto.nomeAlerta())), null, null);
         var body = new Component("body", List.of(
-                new Parameter("text", dto.nomeAlerta()),
                 new Parameter("text", dto.destinatario()),
-                new Parameter("text", dto.coordenadas())
+                new Parameter("text", dto.nomeAlerta()),
+                new Parameter("text", dto.linkMap())
         ), null, null);
         var button = new Component("button", List.of(new Parameter("text", dto.coordenadas())), "url", "0");
 

@@ -39,14 +39,18 @@ public class LocationService {
                     location.getLatitude(),
                     location.getLongitude()
             );
+            String coordenadas = String.format("%s,%S", location.getLatitude(),
+                    location.getLongitude());
 
             for (Contact contact : activeContacts) {
                 try {
                     AlertaRequest alerta = new AlertaRequest(
-                            "Alerta de Emergência de " + pessoaBase,
+                            contact.getTelefone(),
+                            pessoaBase,
                             contact.getNome(),
                             mapsLink,
-                            contact.getTelefone()
+                            coordenadas
+
                     );
 
                     whatsAppAlertaService.enviarAlerta(alerta);

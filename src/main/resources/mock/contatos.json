@@ -63,8 +63,8 @@
     "pessoaBase": "Katia",
     "contatos": [
       {
-        "nome": "Sofia Campoy",
-        "telefone": "11999997766",
+        "nome": "Bruno Vidal",
+        "telefone": "5511989908676",
         "ativo": true
       },
       {
@@ -74,7 +74,7 @@
       },
       {
         "nome": "Stefanie Vidal",
-        "telefone": "11988887766",
+        "telefone": "5511959103137",
         "ativo": true
       },
       {
@@ -85,7 +85,7 @@
       {
         "nome": "Solange Horteja",
         "telefone": "11999887777",
-        "ativo": true
+        "ativo": false
       }
     ]
   }
