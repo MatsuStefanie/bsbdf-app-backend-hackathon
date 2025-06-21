@@ -1,0 +1,92 @@
+[
+  {
+    "pessoaBase": "Sara",
+    "contatos": [
+      {
+        "nome": "Sofia Campoy",
+        "telefone": "11999997766",
+        "ativo": true
+      },
+      {
+        "nome": "Samanta Senegal",
+        "telefone": "11999887766",
+        "ativo": false
+      },
+      {
+        "nome": "Stefanie Vidal",
+        "telefone": "11988887766",
+        "ativo": true
+      },
+      {
+        "nome": "Samira Camargo",
+        "telefone": "11999886666",
+        "ativo": false
+      },
+      {
+        "nome": "Solange Horteja",
+        "telefone": "11999887777",
+        "ativo": true
+      }
+    ]
+  },
+  {
+    "pessoaBase": "Ingrid",
+    "contatos": [
+      {
+        "nome": "Sofia Campoy",
+        "telefone": "11999997766",
+        "ativo": true
+      },
+      {
+        "nome": "Samanta Senegal",
+        "telefone": "11999887766",
+        "ativo": false
+      },
+      {
+        "nome": "Stefanie Vidal",
+        "telefone": "11988887766",
+        "ativo": true
+      },
+      {
+        "nome": "Samira Camargo",
+        "telefone": "11999886666",
+        "ativo": false
+      },
+      {
+        "nome": "Solange Horteja",
+        "telefone": "11999887777",
+        "ativo": true
+      }
+    ]
+  },
+  {
+    "pessoaBase": "Katia",
+    "contatos": [
+      {
+        "nome": "Sofia Campoy",
+        "telefone": "11999997766",
+        "ativo": true
+      },
+      {
+        "nome": "Samanta Senegal",
+        "telefone": "11999887766",
+        "ativo": false
+      },
+      {
+        "nome": "Stefanie Vidal",
+        "telefone": "11988887766",
+        "ativo": true
+      },
+      {
+        "nome": "Samira Camargo",
+        "telefone": "11999886666",
+        "ativo": false
+      },
+      {
+        "nome": "Solange Horteja",
+        "telefone": "11999887777",
+        "ativo": true
+      }
+    ]
+  }
+]
